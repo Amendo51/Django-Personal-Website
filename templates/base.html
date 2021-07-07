@@ -1,0 +1,31 @@
+{% load static  %}
+
+<html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="{% static 'base.css'%}" rel="stylesheet" >
+   <head>
+     <title> Alejandro Mendoza  </title>
+   </head>
+
+  <body class="mainbody" >
+    <div class="top_of_page" >
+        <img src="static/images/personal_photo.png" width="200" height="200" >
+            <h1>
+              Alejandro Mendoza
+            </h1>
+    </div>
+
+    <div class = "options">
+        <ul id = "navigation">
+          <li> <a href= ""> Home </a></li>
+          <li><a href= "" > Resume</a></li>
+          <li> <a href= ""> Projects </a></li>
+          <li> <a href= ""> Contact Me </a></li>
+        </ul>
+    </div>
+
+
+  {% block content %}
+  {% endblock content %}
+  </body>
