@@ -32,3 +32,59 @@ a{
   padding: 6px 18px 5px 18px;
 
   }
+
+/* this for the home page*/
+
+.home_containter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #C5CBD3;
+    max-width: 720px ;
+    min-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.lang_container{
+
+  border-radius: 10px;
+  max-width: 80px;
+  background-color:#C5CBD3 ;
+  overflow: auto;
+  padding: 10px;
+  display: inline-block;
+}
+
+.gallery{
+  margin:5px;
+  border:1px solid #ccc;
+  float:left;
+
+
+}
+
+.gallery img{
+
+  text-align: center;
+  width: 75px;
+  height: 75px;
+}
+
+
+#title {
+
+    text-align: center;
+}
+.bio{
+    text-align:left;
+  border-radius: 10px;
+  max-width: 800px;
+    float: left;
+  background-color:#C5CBD3 ;
+  overflow: auto;
+  padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
